@@ -3,6 +3,9 @@
   --animation-duration: 250ms;
 }
 
+body.no-scroll {
+  overflow-y: hidden;
+}
 .gallery {
   display: grid;
   max-width: 1140px;
