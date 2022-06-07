@@ -27,7 +27,6 @@ function onModalOpenClick(e) {
         return;
     }
     
-
     e.preventDefault();
     noScrollBody();
     createBasicLightbox(e);
@@ -39,7 +38,7 @@ function createBasicLightbox(e) {
 		<img width="1400" height="900" src="${originalImg}">
 	`);
     instance.show();
-    window.addEventListener('keydown', omModalCloseClick)
+    window.addEventListener('keydown', omModalCloseClick);
 };
 
 function noScrollBody() {
