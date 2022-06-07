@@ -6,6 +6,7 @@
 body.no-scroll {
   overflow-y: hidden;
 }
+
 .gallery {
   display: grid;
   max-width: 1140px;
@@ -44,4 +45,8 @@ body.no-scroll {
 
 .gallery__link:hover {
   cursor: zoom-in;
+}
+
+.caption--bg {
+  background-color: rgba(255, 187, 71, 0.74) !important;
 }
